@@ -115,9 +115,7 @@ getComper()
 
 getTextFromImage ()
 
-
-
-
+//asdasdsad
   
 
 // async function sendComper(){
