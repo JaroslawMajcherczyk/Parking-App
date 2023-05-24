@@ -1,0 +1,58 @@
+$primary-color: #442494;
+$primary-light-color: #442494;
+$primary-soft-color:#a484fb;
+$primary-font-color: #f8f7f2;
+$font-stack: Helvetica, sans-serif;
+
+
+
+.about{
+    margin: 10px 200px 10px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        
+        .left{
+            padding-left: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .item{
+                display: flex;
+            }
+            
+        }
+        .right{
+            padding: 20px;
+            display: flex;
+            text-align: justify;
+            width: 400px;
+            .item{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                h1{
+                    font-size: 35px;
+                    font-weight: bold;
+                }
+                h3{
+                    font-size: 28;
+                    font-weight: 500;
+                    color: #555;
+                }
+                span{
+                    text-align: left;
+                    padding-inline: 30px;
+                }
+            }
+        }
+    }
+}

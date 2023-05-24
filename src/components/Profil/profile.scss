@@ -1,0 +1,16 @@
+.profile{
+    display: flex;
+    flex: 4;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+
+        .bottom{
+
+            form{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

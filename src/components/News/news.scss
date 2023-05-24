@@ -1,0 +1,27 @@
+.news{
+    display: flex;
+    flex: 4;
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+
+        .welcome{
+            
+        }
+
+        .top{
+            display: flex;
+            justify-content: space-between;
+        }
+        .camera{
+            display: flex;
+            margin: 10px 100px 10px 25px;
+            padding: 10px;
+            justify-content: space-between;
+        }
+    
+    }
+
+    
+}

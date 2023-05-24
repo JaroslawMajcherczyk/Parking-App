@@ -1,0 +1,38 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: rgb(181, 181, 234);
+    position: static;
+    top: 50px;
+
+    .wrapper{
+        padding: 20px;
+        color:white;
+
+        .menu{
+            margin-bottom: 10px;
+
+            .title{
+                font-size: 14px;
+                color: #555;
+            }
+
+            .list{
+                list-style: none;
+                padding: 5px;
+
+                .listItem{
+                    padding: 5px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 10px;
+                }&:active,:hover{
+                   background-color: rgb(139, 139, 212);
+                }
+            }
+        }
+    }
+}

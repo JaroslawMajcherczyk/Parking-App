@@ -1,0 +1,44 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 100px 10px 100px;
+    
+   // background-color: bisque;
+
+    .top{
+            display: flex;
+            gap: 100px;
+            padding: 0px 20px 0px 20px;
+            justify-content: center;
+           // align-items: center;
+           // margin-left: 200px;
+        .item{
+            padding-left: 200px;
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            gap: 5px;
+            font-size: 14px;
+            h4{
+                font-weight: 500;
+                font-size: 18px;
+                columns: #555;
+                margin-bottom: 10px;
+            }
+            span{
+                color: gray;
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        .item{
+            color: #555;
+        }
+    }
+}
